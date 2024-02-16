@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	background-color: white;
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-width: 300px;
+	max-width: 500px;
+}
+
+@media (max-width: 600px) {
+	form {
+		width: 250px;
+		min-width: auto;
+	}
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p {
+	margin-bottom: 40px;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+span {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid gray;
+}
+
+.radio_buttons {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.radio_buttons label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.radio_buttons input {
+	width: 25px;
+	height: 25px;
+	padding: none;
+}
+
+.radio_buttons span {
+	margin-top: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(255,204,24);
+}
+
+button:hover {
+	background-color: rgba(255,204,24,0.5);
+	cursor: pointer;
+}
+
+.bg_gray {
+	background-color: rgba(72,70,68,0.5) !important;
+}
+
+.button span {
+	font-size: 20px
+}
